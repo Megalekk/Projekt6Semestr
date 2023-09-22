@@ -1,0 +1,30 @@
+Zpracujte program pro analýzu webových stránek v autentizovaném prostoru apl.unob.cz/MojeAP
+
+Cílovými stránkami jsou
+
+https://apl.unob.cz/MojeAP/Predmet/XXX
+
+konkrétně to potom vypadá:
+
+https://apl.unob.cz/MojeAP/Predmet/645
+
+Na těchto stránkách vyseparujete:
+
+ID karty (přímo z odkazu, např. 645)
+ID programu (z odkazu v kartě program)
+ID garanta (z odkazu v kartě garant)
+ID předmětu v akreditaci (z odkazu v kartě Link na akreditaci)
+Položky (seznam témat)
+Datovou položku definujete jako dictionary.
+
+Vytvoříte vektor položek a uložíte jako JSON soubor.
+
+Výchozími prvky jsou
+
+- https://apl.unob.cz/MojeAP/Fakulta/369
+
+- https://apl.unob.cz/MojeAP/Fakulta/633
+
+- https://apl.unob.cz/MojeAP/Fakulta/647
+
+Přes katedry se dostanete na lidi a odtud na předměty.
